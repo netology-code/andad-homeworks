@@ -1,0 +1,74 @@
+{
+  "id": 1,
+  "title": "SoundHelix Songs",
+  "subtitle": "www.soundhelix.com",
+  "artist": "T. Schürger",
+  "published": "2009, 2010, 2011, 2013",
+  "genre": "electronic",
+  "tracks": [
+    {
+      "id": 1,
+      "file": "1.mp3"
+    },
+    {
+      "id": 2,
+      "file": "2.mp3"
+    },
+    {
+      "id": 3,
+      "file": "3.mp3"
+    },
+    {
+      "id": 4,
+      "file": "5.mp3"
+    },
+    {
+      "id": 5,
+      "file": "5.mp3"
+    },
+    {
+      "id": 6,
+      "file": "6.mp3"
+    },
+    {
+      "id": 7,
+      "file": "7.mp3"
+    },
+    {
+      "id": 8,
+      "file": "9.mp3"
+    },
+    {
+      "id": 9,
+      "file": "9.mp3"
+    },
+    {
+      "id": 10,
+      "file": "10.mp3"
+    },
+    {
+      "id": 11,
+      "file": "11.mp3"
+    },
+    {
+      "id": 12,
+      "file": "12.mp3"
+    },
+    {
+      "id": 13,
+      "file": "13.mp3"
+    },
+    {
+      "id": 14,
+      "file": "14.mp3"
+    },
+    {
+      "id": 15,
+      "file": "15.mp3"
+    },
+    {
+      "id": 16,
+      "file": "16.mp3"
+    }
+  ]
+}
