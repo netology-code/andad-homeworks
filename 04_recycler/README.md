@@ -18,12 +18,12 @@
 
 ### Описание
 
-Помимо документации и примеров на GitHub, Google часто оформляет примеры использования определённой технологии в виде [CodeLabs](https://codelabs.developers.google.com/?cat=android).
+Помимо документации и примеров на GitHub, Google часто оформляет примеры использования определенной технологии в виде [CodeLabs](https://codelabs.developers.google.com/?cat=android).
 
 Используя примеры с лекции и [CodeLab'у, посвящённую Paging'у](https://developer.android.com/codelabs/android-paging), добавьте в код предыдущего проекта (в котором есть Paging, поддержка PREPEND, APPEND и REFRESH), следующее поведение:
-1. Refreshing SwipeRefreshLayout'а отображается только при REFRESH'е
-1. При PREPEND'е первым элементом в `RecyclerView` должна быть элемент с загрузкой 
-1. При APPEND'е последним элементом в `RecyclerView` должен быть элемент с загрузкой
+1. Refreshing SwipeRefreshLayout'а отображается только при REFRESH'е.
+1. При PREPEND'е первым элементом в `RecyclerView` должен быть элемент с загрузкой. 
+1. При APPEND'е последним элементом в `RecyclerView` должен быть элемент с загрузкой.
 
 ### Результат
 
