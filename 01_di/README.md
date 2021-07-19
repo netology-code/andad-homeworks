@@ -65,15 +65,4 @@ Hilt предоставляет интеграцию с `WorkManager`: https://d
 Если при сборке вы видите следующее сообщение об ошибке
 ![image](https://user-images.githubusercontent.com/13727567/124985798-8264b200-e043-11eb-96f6-cec2de608962.png)
 Но вы сделали всё по инструкции, следует проверить версию Котлина. 
-Если у вас 1.5.20, то нужно добавить следующий код в app/build.gradle
-```
-kapt {
-    javacOptions {
-        // В обычной ситуации эти параметры задаются через Hilt Gradle plugin, но
-        // мы установили их вручную, чтобы поправить баг, связанный с Kotlin 1.5.20.
-        // При обновлении до следующей версии Котлина проверить и удалить, если больше не воспроизводится
-        option("-Adagger.fastInit=ENABLED")
-        option("-Adagger.hilt.android.internal.disableAndroidSuperclassValidation=true")
-    }
-}
-```
+Если у вас 1.5.20, то нужно обновиться до 1.5.21
