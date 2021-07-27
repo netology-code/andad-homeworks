@@ -44,21 +44,6 @@ with(GoogleApiAvailability.getInstance()) {
 
 В качестве результата пришлите: ссылку на PR GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru)
 
-## Задача Hilt & WorkManager*
-
-**Важно**: это необязательная задача. Её (не)выполнение не влияет на получение зачёта по ДЗ.
-
-### Описание
-
-Hilt предоставляет интеграцию с `WorkManager`: https://developer.android.com/training/dependency-injection/hilt-jetpack#workmanager.
-
-Замените существующую реализацию на использование библиотеки с интеграцией.
-
-### Результат
-
-Опубликуйте изменения в виде Pull Request'а в вашем проекте на GitHub.
-
-В качестве результата пришлите: ссылку на PR GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru)
 
 ### Возможные проблемы и их решения
 
