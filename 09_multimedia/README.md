@@ -24,7 +24,7 @@
 
 URL, с которого можно получать JSON с нужными данными: https://github.com/netology-code/andad-homeworks/raw/master/09_multimedia/data/album.json (данные любезно предоставлены [SoundHelix](https://www.soundhelix.com)).
 
-URL для композиции можно построить из BASE_URL "https://github.com/netology-code/andad-homeworks/blob/master/09_multimedia/data/" + имя файла (поля file из [album.json](https://github.com/netology-code/andad-homeworks/raw/master/09_multimedia/data/album.json))
+URL для композиции можно построить из BASE_URL "https://raw.githubusercontent.com/netology-code/andad-homeworks/master/09_multimedia/data/" + имя файла (поля file из [album.json](https://github.com/netology-code/andad-homeworks/raw/master/09_multimedia/data/album.json))
 
 Весь экран должен представлять собой один `RecyclerView`, который прокручивается. При этом вам нужно реализовать логику воспроизведения (берите за основу [логику веб-версии Яндекс.Музыка](https://music.yandex.ru/artist/36800/albums)).
 
