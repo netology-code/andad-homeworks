@@ -28,7 +28,7 @@
 
 ## Блок 4: Google Play и сервисы Firebase
 
-4.1 Публикация приложения в Google Play и работа с Google Play Console (ДЗ не предусмотрено)
+4.1 [x] [Публикация приложения в Google Play и работа с Google Play Console](10_publication)
 
 4.2 Обзор сервисов Firebase и разбор ДЗ (ДЗ не предусмотрено)
 
