@@ -54,7 +54,7 @@ findViewById<StatsView>(R.id.stats).data = listOf(
 
 Опубликуйте изменения в виде Pull Request в вашем проекте на GitHub.
 
-В качестве результата пришлите ссылку на PR GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru)
+В качестве результата пришлите ссылку на PR GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).
 
 ## Задача. Dot
 
@@ -70,7 +70,7 @@ findViewById<StatsView>(R.id.stats).data = listOf(
 
 Опубликуйте изменения в виде Pull Request в вашем проекте на GitHub.
 
-В качестве результата пришлите ссылку на PR GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru)
+В качестве результата пришлите ссылку на PR GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).
 
 ## Задача. Not Filled*
 
