@@ -49,15 +49,16 @@ with(GoogleApiAvailability.getInstance()) {
 
 1. Если во время выполнения происходит следующее исключение
 <img width="1097" alt="image" src="https://user-images.githubusercontent.com/13727567/202386286-f44b2849-55eb-4ae9-b790-8284e4f01d5a.png">
-Проверьте, что вместо шаринга viewModel таким способом
+Вместо шаринга viewModel таким способом
 
 ```
 private val viewModel: PostViewModel by viewModels(ownerProducer = :: requireParentFragment)
 ```
-Вы используете функцию activityViewModels
+Необходимо использовать функцию activityViewModels
 ```
 private val viewModel: PostViewModel by activityViewModels()
 ```
+Так происходит потому что Hilt с определённой версии перестал поддерживать ownerProducer
 
 
 2. При возникновении данной проблемы во сборки
