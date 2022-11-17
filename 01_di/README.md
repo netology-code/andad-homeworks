@@ -62,7 +62,9 @@ private val viewModel: PostViewModel by activityViewModels()
 
 2. При возникновении данной проблемы во сборки
 <img width="1516" alt="image" src="https://user-images.githubusercontent.com/13727567/202386789-46a93331-9adf-48f1-82f5-93734337956c.png">
-Проверьте, что вы используете актуальную версию hilt. Посмотреть можно [здесь](https://github.com/netology-code/andad-code/blob/master/01_di/android/build.gradle#L4)
+Проверьте, что вы используете актуальную версию hilt. 
+
+Посмотреть версию можно [здесь](https://github.com/netology-code/andad-code/blob/master/01_di/android/build.gradle#L4)
 
 
 3. Если при сборке вы видите следующее сообщение об ошибке,
