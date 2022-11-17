@@ -47,7 +47,26 @@ with(GoogleApiAvailability.getInstance()) {
 
 ### Возможные проблемы и их решения
 
-Если при сборке вы видите следующее сообщение об ошибке,
+1. Если во время выполнения происходит следующее исключение
+<img width="1097" alt="image" src="https://user-images.githubusercontent.com/13727567/202386286-f44b2849-55eb-4ae9-b790-8284e4f01d5a.png">
+Проверьте, что вместо шаринга viewModel таким способом
+
+```
+private val viewModel: PostViewModel by viewModels(ownerProducer = :: requireParentFragment)
+```
+Вы используете функцию activityViewModels
+```
+private val viewModel: PostViewModel by activityViewModels()
+```
+
+
+2. При возникновении данной проблемы во сборки
+<img width="1516" alt="image" src="https://user-images.githubusercontent.com/13727567/202386789-46a93331-9adf-48f1-82f5-93734337956c.png">
+Проверьте, что вы используете актуальную версию hilt. Посмотреть можно [здесь](https://github.com/netology-code/andad-code/blob/master/01_di/android/build.gradle#L4)
+
+
+3. Если при сборке вы видите следующее сообщение об ошибке,
+
 ![image](https://user-images.githubusercontent.com/13727567/124985798-8264b200-e043-11eb-96f6-cec2de608962.png)
 но вы сделали всё по инструкции, проверьте версию Котлина. 
 Если у вас 1.5.20, нужно обновиться до 1.5.21.
