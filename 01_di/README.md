@@ -68,7 +68,12 @@ private val viewModel: PostViewModel by activityViewModels()
 Посмотреть версию можно [здесь](https://github.com/netology-code/andad-code/blob/master/01_di/android/build.gradle#L4)
 
 
-3. Если при сборке вы видите следующее сообщение об ошибке,
+3. Если падает во время выполнения с таким стектрейсом
+<img width="1769" alt="image" src="https://user-images.githubusercontent.com/13727567/209649540-1eba20dd-7e4a-48f3-bf7c-5f0b88eef747.png">
+Проверьте, что все версии библиотек обновлены до последних версий. Как правило, помогает обновление nav_version
+
+
+4. Если при сборке вы видите следующее сообщение об ошибке,
 
 ![image](https://user-images.githubusercontent.com/13727567/124985798-8264b200-e043-11eb-96f6-cec2de608962.png)
 но вы сделали всё по инструкции, проверьте версию Котлина. 
